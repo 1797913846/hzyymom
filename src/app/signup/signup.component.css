@@ -65,8 +65,8 @@
   float: right;
   width: 94px;
   height: 30px;
-  background: #5775FF;
-  border: solid 1px #5775FF;
+  background: #C80005;
+  border: solid 1px #C80005;
   color: #fff;
   margin-top: 4px;
 }
@@ -78,5 +78,5 @@
 }
 
 .book a{
-  color: #5775FF;
+  color: #C80005;
 }

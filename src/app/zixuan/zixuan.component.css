@@ -62,9 +62,9 @@
   /* line-height: 40px; */
   background: #fff;
   /* border-bottom: solid 1px #e4e4e4; */
-  padding: 20px 15px 0;
+  padding: 20px 15px 0 35px;
   box-sizing: border-box;
-  color: #999999;
+  color: #333333;
   font-size: 12px;
   text-align: center;
 }
@@ -89,14 +89,22 @@
 .table-flex2 {
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  height: 30px;
   /* border-bottom: solid 1px #f5f5f5; */
-  padding: 0 15px;
   box-sizing: border-box;
-  margin-top: 25px;
   text-align: center;
+  border: 1px solid #EDEDED;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   /* font-size: .9rem; */
+}
+
+.table-flex2:first-child {
+  margin-top: 13px;
 }
 
 .table-flex2 .delete-box {
@@ -109,7 +117,7 @@
 .table-flex2 .delete-box .delete-btn {
   width: 23px;
   height: 23px;
-  background-color: #5473FF;
+  background-color: #C80005;
   border-radius: 50%;
   margin-left: 19px;
   margin-top: 3px;
@@ -131,19 +139,19 @@
 .table-flex2 .name-code .stock-name {
   margin-top: -2px;
   font-weight: bold;
-  color: #5A5B65;
+  color: #333333;
   font-size: 14px;
 }
 
 .table-flex2 .name-code .stock-code {
   margin-top: -2px;
-  color: #999999;
+  color: #333333;
   font-size: 10px;
 }
 
 .table-flex2 .last-price {
   line-height: 30px;
-  color: #999999;
+  color: #333333;
   font-size: 11px;
 }
 
@@ -163,7 +171,7 @@
 
 .table-flex2 .upRatio.red {
   color: #fff !important;
-  background-color: #F05330;
+  background-color: #C80005;
 }
 
 .table-flex2 .upRatio.green {
@@ -174,7 +182,7 @@
 .edit {
   float: left;
   margin-left: 15px;
-  color:#999999;
+  color:#333333;
   font-size: 12px;
   position: relative;
   z-index: 10;
@@ -242,4 +250,16 @@
   height: calc(100vh - 229px);
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.addZixuan {
+  border: 1px solid #C80005;
+  color: #C80005;
+  font-size: 13px;
+  width: 181px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 2px;
+  margin-left: 97px;
+  margin-top:30px;
 }

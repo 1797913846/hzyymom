@@ -251,8 +251,8 @@
   height: 50px;
   line-height: 50px;
   font-size: 0;
-  border-top: 1px solid #5473FF;
-  background-color: #5473FF
+  border-top: 1px solid #C80005;
+  background-color: #C80005
 }
 
 .layui-m-layerbtn span {
@@ -272,7 +272,7 @@
 }
 
 .layui-m-layerbtn span:active {
-  background-color: #859bff;
+  background-color: #C80005;
 }
 
 .layui-m-layerend {

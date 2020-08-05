@@ -4,19 +4,18 @@
 
 .content-title {
     font-size: .9rem;
-    width: 90%;
+    width: 60%;
+    float: left;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    height: 30px;
-    line-height: 30px;
-    padding-left: 20px;
 }
 
 .content-info {
     font-size: .8rem;
     color: #868686;
-    padding-left: 20px;
+    float: left;
+    margin-left: 20px;
 }
 
 .swiper-container {
@@ -43,40 +42,17 @@
     width: 100%;
 }
 
-.news1 {
+.news {
     background: #fff;
     border-bottom: solid 1px #e4e4e4;
     height: 40px;
     line-height: 40px;
-}
-
-.news {
-    background: #fff;
-    min-height: 200px;
-}
-
-.news-title1 {
-    height: 40px;
-    float: left;
-}
-
-.news-title1 img {
-    width: 10px;
-    height: 12px;
-    vertical-align: middle;
-    margin-left: 24px;
-    margin-right: 8px;
-}
-
-.news-title1 span {
-    line-height: 40px;
-    color: #F05330;
-    font-size: 13px;
+    overflow: hidden;
 }
 
 .news-title {
     height: 40px;
-    border-bottom: 1px solid rgb(246, 246, 246);
+    float: left;
 }
 
 .news-title img {
@@ -89,11 +65,11 @@
 
 .news-title span {
     line-height: 40px;
-    color: #F05330;
+    color: #C80005;
     font-size: 13px;
 }
 
-.newsbox1 {
+.newsbox {
     float: left;
     width: 70%;
     overflow: hidden;
@@ -102,36 +78,22 @@
     position: relative;
 }
 
-.newsbox {
-    width: 100%;
-    position: relative;
-}
-
 #scrollBox {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: 0;
-    width: 100%;
-    padding-bottom:120px;
 }
 
 .scroll_top {
     transition: all 0.5s;
-    margin-top: -10px;
+    margin-top: -40px;
 }
 
 .news-content {
     /* overflow: hidden; */
     min-width: 100%;
-    border-bottom: 1px solid rgb(246, 246, 246);
-    overflow: hidden;
-    height: 60px;
-}
-
-.news-content * {}
-
-.news-content:last-child {
-    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
 }
 
 .new-zixun {
@@ -144,13 +106,16 @@
     width: 100%;
     height: 193px;
     position: relative;
-    margin-top: -30px;
+}
+
+.new-zixun .zixun-box:nth-child(2), .new-zixun .zixun-box:nth-child(3) {
+    margin-top: -21px;
 }
 
 .new-zixun .zixun-box .bigtitle {
     height: 14px;
     line-height: 14px;
-    border-left: 3px solid #5473FF;
+    border-left: 3px solid #C80005;
     margin: 11px 0;
     color: #666666;
     font-weight: bold;
@@ -166,7 +131,7 @@
 .new-zixun .zixun-box .zixun-num {
     width: 100%;
     text-align: center;
-    height: 78px;
+    height: 88px;
     overflow: hidden;
     font-size: 105px;
     font-weight: bold;
@@ -201,7 +166,7 @@
 }
 
 .new-zixun .zixun-box .zixun-content1 .zixun1 .span2 {
-    color: #F05330;
+    color: #C80005;
     font-weight: bold;
 }
 
@@ -218,20 +183,21 @@
 }
 
 .new-zixun .zixun-box .zixun-content1 .zixun2 span {
-    color: #5473FF;
+    color: #C80005;
 }
 
 .new-zixun .zixun-box .zixun-content1 .btn1 {
-    background-image: url('../../assets/images/btn1.png');
+    /* background-image: url('../../assets/images/btn1.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 108px;
-    height: 41px;
+    height: 34px;
     line-height: 34px;
     color: #fff;
     font-size: 15px;
     font-weight: bold;
     margin: 0 auto;
+    background-color:#C80005;
 }
 
 .new-zixun .zixun-box .zixun-content1 .btn2 {
@@ -308,7 +274,6 @@
     height: 30px;
     line-height: 30px;
     position: relative;
-    margin-bottom: 20px;
     z-index: 10000;
 }
 
@@ -326,7 +291,7 @@
 }
 
 .addIdStyle {
-    color: #5473FF;
+    color: #C80005;
 }
 
 .addIdStyle::after {
@@ -334,8 +299,8 @@
     display: block;
     height: 2.5px;
     width: 50%;
-    color: #5473FF;
-    background-color: #5473FF;
+    color: #C80005;
+    background-color: #C80005;
     margin-left: 24%;
     border-radius: 1.25px;
 }

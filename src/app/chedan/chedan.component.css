@@ -1,9 +1,8 @@
 .icon4 {
-    height: 30px;
-    width: 30px;
-    float: right;
+    height: 21px;
+    width: 21px;
+    float: left;
     background-size: 100%;
-    margin-right: 8px;
 }
 
 .djzj2 {
@@ -32,7 +31,6 @@
     background-color: #ffffff;
     /* padding-top: 10px; */
     box-sizing: border-box;
-    border-bottom: 4px solid rgb(246, 246, 246);
 }
 
 .chedang-div {
@@ -57,6 +55,7 @@
 
 .chedang-div .chedan span {
     display: inline-block;
+    float: left;
     margin-left: 20px;
 }
 
@@ -65,27 +64,44 @@
 }
 
 .chedang-div div p {
-    color: #5A5B65;
-    font-size: 15px;
+    color: #C80005;
+    font-size: 12px;
     font-weight: bold;
-    text-align: right;
-    margin-right: 20px;
 }
 
 .chedang-div div .name {
-    font-size: 15px!important;
+    font-size: 15px;
     color: #5B5F65;
+    float: left;
+    margin-left: 10px;
+}
+
+.chedang-div .cSpan {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.chedang-div .sp {
     float: right;
-    margin-right: 0px;
-    margin-top: 10px;
+    text-align: right;
+    width: 80%;
+    margin-right: 46px;
+}
+
+.chedang-div .sp1 {
+    float: right;
+    text-align: right;
+    width: 80%;
+    margin-right: 16px;
 }
 
 .chedang-div-active {
     background: #fff;
     text-align: center;
     display: flex;
-    margin-left: 44px;
-    margin-right: 44px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 5px 0px 26px 0px;
 }
 
@@ -102,12 +118,8 @@
 
 .chedang-div-active .chedan span {
     display: inline-block;
+    float: left;
     margin-left: 20px;
-    width: 100%;
-}
-
-.chedang-div-active span {
-    float: right;
 }
 
 .chedang-div-active div {
@@ -115,18 +127,15 @@
 }
 
 .chedang-div-active div p {
-    color: #5A5B65;
+    color: #333333;
     font-size: 15px;
     font-weight: bold;
-    text-align: right;
-    margin-right: 20px;
+    text-align: left;
 }
 
 .chedang-div-active div .name {
-    font-size: 15px!important;
-    color: #5B5F65;
-    margin-top: 6px;
-    float: right;
+    font-size: 12px;
+    color: #8E9399;
 }
 
 .cclb {
@@ -138,7 +147,7 @@
 .cclb table {
     width: 100%;
     text-align: center;
-    color: #5A5B65;
+    color: #333333;
     font-size: 12px;
 }
 
@@ -168,19 +177,19 @@
     margin-top: 14px;
     font-size: .7rem;
     display: block;
-    border: solid 1px #F05330;
+    border: solid 1px #C80005;
     border-radius: 50px;
     height: 20px;
     width: 20px;
     line-height: 20px;
     margin-left: 2px;
-    color: #F05330;
+    color: #C80005;
     margin-right: 2px;
 }
 
 .blue {
-    color: #5473FF !important;
-    border: solid 1px #5473FF !important;
+    color: #C80005 !important;
+    border: solid 1px #C80005 !important;
 }
 
 .progressBox {
@@ -193,14 +202,14 @@
     width: 90vw;
     margin-left: 5vw;
     height: 6px;
-    background-color: #5473FF;
+    background-color: #6B8AB0;
     position: relative;
     border-radius: 3px;
 }
 
 #data1 {
     height: 6px;
-    background-color: #F05330;
+    background-color: #C80005;
     text-align: center;
     color: #000;
     position: absolute;
@@ -231,7 +240,7 @@
 }
 
 .p1 .s1 {
-    color: #F05330;
+    color: #C80005;
 }
 
 .p2 {
@@ -257,21 +266,19 @@
 }
 
 .zong .s3 {
-    color: #5473FF;
+    color: #6B8AB0;
 }
 
 #yuan {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #5473FF;
+    background-color: #6B8AB0;
     position: absolute;
     right: -5px;
     top: -2.5px;
     z-index:10000;
 }
-
-/*新增功能*/
 
 .addTBox {
     width: 100%;

@@ -18,7 +18,6 @@ html, body {
     color: #373737;
     background: #f6f6f6;
     overflow: hidden;
-    /* min-height: 100vh; */
 }
 
 .Body {
@@ -37,7 +36,7 @@ html, body {
     height: 44px;
     line-height: 44px;
     background-color: #ffffff;
-    color: #5A5B65;
+    color: #333333;
     font-size: 18px;
 }
 
@@ -53,15 +52,11 @@ input:read-only {
 }
 
 .navigation-title {
-    margin-bottom: 44px;
-    position: fixed;
-    top:0px;
-    left:0px;
+    margin: 0;
+    position: absolute;
     width: 100vw;
-    height:44px;
     font-size: 18px;
-    color: #5A5B65;
-    background-color:#fff;
+    color: #333333;
 }
 
 table td p {
@@ -81,12 +76,12 @@ table td p {
 }
 
 .blue {
-    color: #5473FF !important;
+    color: #C80005 !important;
 }
 
 .blue-border {
-    color: #5473FF !important;
-    border: solid 1px #5473FF !important;
+    color: #C80005 !important;
+    border: solid 1px #C80005 !important;
 }
 
 .search-div div {
@@ -116,7 +111,7 @@ table td p {
 }
 
 .red {
-    color: #F05330 !important;
+    color: #C80005 !important;
 }
 
 .green {
@@ -173,8 +168,8 @@ table td p {
 .submit-btn {
     width: 90%;
     height: 43px;
-    background: #5473FF;
-    border: solid 1px #5473FF;
+    background: #C80005;
+    border: solid 1px #C80005;
     border-radius: 5px;
     margin-left: 5%;
     margin-top: 20px;
@@ -226,13 +221,13 @@ table td p {
     height: 45px;
     line-height: 45px;
     text-align: center;
-    background: #5473FF;
-    border: solid 1px #5473FF;
+    background: #C80005;
+    border: solid 1px #C80005;
     /* margin: 3px 2vw; */
 }
 
 .bottom-btn .main:active {
-    background: #5473FF;
+    background: #C80005;
 }
 
 .bottom-btn .clear {
@@ -400,7 +395,7 @@ table td p {
 /* bandcard */
 
 .list-item-name {
-    color: #5A5B65;
+    color: #333333;
 }
 
 .list-item-content {
@@ -473,12 +468,13 @@ table td p {
 
 .footer1 {
     text-align: center;
-    position: fixed!important;
+    position: fixed;
     bottom: 0;
     z-index: 10;
     background: #fff;
     border-top: solid 1px #e6e6e6;
     width: 100vw;
+    box-shadow: 1px 3px 95px 0px rgba(0, 0, 0, 0.04);
     /* padding-bottom: constant(safe-area-inset-bottom); */
 }
 
@@ -542,7 +538,7 @@ table td p {
 }
 
 .icon-active p {
-    background: linear-gradient(to right top, #5775FF, #5775FF);
+    background: linear-gradient(to right top, #C80005, #C80005);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -568,7 +564,7 @@ table td p {
 }
 
 .menuList .footer-div-active p {
-    color: #5473FF;
+    color: #C80005;
 }
 
 .menuList .footer-div-active::after {
@@ -576,7 +572,7 @@ table td p {
     display: block;
     width: 38px;
     height: 2px;
-    background-color: #5473FF;
+    background-color: #C80005;
     position: absolute;
     left: 18px;
     bottom: 0px;
@@ -589,7 +585,7 @@ table td p {
 
 .header {
     text-align: center;
-    background: #F05330;
+    background: #C80005;
     color: #fff;
     padding: 15px;
     height: 120px;
@@ -680,8 +676,8 @@ table td p {
 
 .recharge {
     background: #fff;
-    color: #F05330;
-    border: solid 1px #F05330;
+    color: #C80005;
+    border: solid 1px #C80005;
     padding: 5px 20px;
     border-radius: 5px;
     text-align: center;
@@ -719,7 +715,7 @@ table td p {
     line-height: 50px;
     background: #ffffff;
     padding: 0 15px;
-    color: #5A5B65;
+    color: #333333;
     font-size: 13px;
 }
 
@@ -757,7 +753,7 @@ table td p {
 }
 
 .SELL .add-down div {
-    background: #5473FF;
+    background: #C80005;
 }
 
 .hide {
@@ -785,13 +781,13 @@ table td p {
 }
 
 .active {
-    color: #5473FF !important;
+    color: #C80005 !important;
     position: relative;
 }
 
 .active::after {
     content: '—';
-    color: #5473FF;
+    color: #C80005;
     position: absolute;
     left: 30px;
     bottom: -14px;
@@ -894,15 +890,15 @@ table td p {
     vertical-align: middle;
     text-align: center;
     line-height: 50px;
-    border: solid 1px #F05330;
+    border: solid 1px #C80005;
     border-radius: 50%;
-    color: #F05330;
+    color: #C80005;
     font-size: .8rem;
 }
 
 .blueBorder {
-    border: solid 1px #5473FF !important;
-    color: #5473FF !important;
+    border: solid 1px #C80005 !important;
+    color: #C80005 !important;
 }
 
 .status {
@@ -932,7 +928,7 @@ table td p {
 .input-div .title {
     font-size: 1.8rem;
     margin-top: 78px;
-    color: #5A5B65;
+    color: #333333;
     text-align: left;
     font-weight: bold;
 }
@@ -969,7 +965,7 @@ table td p {
 .login-btn {
     width: 100%;
     height: 35px;
-    background: #5775FF;
+    background: #C80005;
     border: none;
     color: #fff;
     font-size: 19px;
@@ -979,7 +975,7 @@ table td p {
 }
 
 .login-btn:active {
-    background: #859bff;
+    background: #C80005;
 }
 
 .login-input img {
@@ -1003,7 +999,7 @@ table td p {
 
 .signup-div span:first-child {
     float: left;
-    color: #5473FF;
+    color: #C80005;
 }
 
 .signup-div span:last-child {

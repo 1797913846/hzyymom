@@ -32,36 +32,16 @@
 
 .active-recharge {
   color: #fff;
-  background: #5473FF;
-  border: solid 1px #5473FF;
+  background: #C80005;
+  border: solid 1px #C80005;
 }
 
 .recharge-input {
-  width: 100%;
-  line-height: 40px;
+  width: 90%;
   border: none;
   text-align: center;
+  padding: 5%;
   background: none;
-  outline:none;
-}
-
-.recharge-input::-placeholder {
-  color: #000;
-}
-
-.recharge-input::-webkit-input-placeholder {
-  /* WebKit browsers */
-  color: #000;
-}
-
-.recharge-input::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #000;
-}
-
-.recharge-input::-ms-input-placeholder {
-  /* Internet Explorer 10+ */
-  color: #000;
 }
 
 .pay-way {
@@ -127,7 +107,7 @@
   height: 45px;
   line-height: 45px;
   text-align: center;
-  background: #5473FF;
-  border: solid 1px #5473FF;
+  background: #C80005;
+  border: solid 1px #C80005;
   /* margin: 3px 2vw; */
 }

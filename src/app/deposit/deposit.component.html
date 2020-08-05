@@ -14,7 +14,7 @@
   <div *ngFor="let item of typeList" (click)='selectType(item.id,item.money)' class="tabsActive">
     <!-- <div class="num">{{item.num}}</div>
     <div class="interest">{{item.date}}利息{{item.money}}元</div> -->
-    <div class="num"></div><br />
+    <!-- <div class="num"></div><br /> -->
     <div class="interest">{{nameMsg}}</div>
     <div class="amount-num">{{item.amount}}元起</div>
     <!-- <div>—</div> -->
@@ -43,14 +43,17 @@
     <!-- <p class='p-first'>
       请选择杠杆
     </p> -->
-    <div class='multiple-div'>
+    <p class='p-first'>
+      请选择方案
+    </p>
+    <div class='multiple-div {{detail.length == 1?"singleDiv":""}}'>
       <ng-container *ngFor="let item of detail">
         <div (click)='goto(item.id,item.mul,item.financeFeeRate)' class="multiple-item" [ngClass]="mulType == item.mul?'multiple-active':''">
-          <div class="title">放大倍数</div>
+          <!-- <div class="title">放大倍数</div> -->
           <span class="multiple-box">{{item.mul}}
             <span class="several-times">&nbsp;倍</span>
           </span>
-          <p style="margin-top:50px;">{{amount(item.mul)}}
+          <p>{{amount(item.mul)}}
             <span class="multiple-unit">万元</span>
           </p>
           <!-- <p>{{manageFeeFn(item.mul,item.financeFeeRate)}} -->
@@ -58,7 +61,7 @@
           <!-- <span class="multiple-unit">元/{{dateType[type]}}</span> -->
           <!-- <span class="multiple-unit">元/仓</span> -->
           <!--这个是50环境的客户不要的 <p>建仓费率：{{addNum(item.makeFeeRate)}}%<br />管理费率：{{addNum(item.financeFeeRate)}}%</p> -->
-          <img src="./assets/images/strategy_search.png" class="strategy-search" />
+          <!-- <img src="./assets/images/strategy_search.png" class="strategy-search" /> -->
         </div>
       </ng-container>
       <!-- <div (click)='goto(item.id,item.mul,item.financeFeeRate)' [class]="mulType == item.mul?'multiple-active':''" *ngFor="let item of detail">

@@ -1,6 +1,6 @@
-.content {
+.content{
     margin-bottom: 50px;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 133px);
     overflow-y: auto;
 }
 
@@ -14,14 +14,14 @@
     width: 90vw;
     margin-left: 5vw;
     height: 6px;
-    background-color: #5473FF;
+    background-color: #6B8AB0;
     position: relative;
     border-radius: 3px;
 }
 
 #data1 {
     height: 6px;
-    background-color: #F05330;
+    background-color: #C80005;
     text-align: center;
     color: #000;
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 .p1 .s1 {
-    color: #F05330;
+    color: #C80005;
 }
 
 .p2 {
@@ -78,13 +78,13 @@
 }
 
 .zong .s3 {
-    color: #5473FF;
+    color: #6B8AB0;
 }
 #yuan {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #5473FF;
+    background-color: #6B8AB0;
     position: absolute;
     right: -5px;
     top: -2.5px;
